@@ -1,0 +1,56 @@
+footer{
+    min-height:100vh;
+    width: 100%;
+}
+
+
+.map-side iframe{
+    height: 100%;
+}
+.contact-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-side form{
+    width: 80%;
+}
+.contact-side .section__header h2{
+    text-transform: capitalize;
+}
+.contact-side .section__header h2::before{
+    content: "G";
+    left: 5%;
+}
+.form-group label{
+    display: block;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 500;
+}
+.form-control{
+    height: 50px;
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 50px;
+    border: 2px solid #eee;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-transition: border-color .3s ;
+    transition: border-color .3s ;
+}
+.form-group textarea{
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 50px;
+    border: 2px solid #eee;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-transition: border-color .3s ;
+    transition: border-color .3s ;
+    width: 100%;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color:  black;
+}

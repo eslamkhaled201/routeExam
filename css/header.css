@@ -1,0 +1,229 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.24);
+    padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: black;
+}
+
+.navbar-dark .navbar-nav .active .nav-link, .navbar-light .navbar-nav .active .nav-link {
+    color: #787878;
+}
+
+.navbar-shadow {
+    box-shadow: 0px 1px 5px rgba(128, 128, 128, 0.479);
+}
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.nav-item a {
+    font-size: 14px;
+    color: lavenderblush;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.soM-icons {
+    display: flex;
+    box-sizing: border-box;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    border-left: 1px solid rgba(150, 148, 148, 0.247);
+    padding-left: 15px;
+}
+
+.soM-icons a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.btn-color {
+    color: #fff;
+    background-color: #00c3da;
+    padding: 13px 28px;
+    border-radius: 4px;
+    letter-spacing: -0.04em;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-color:hover {
+    color: #fff;
+}
+
+.btn-light-out {
+    margin-left: 10px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1rem;
+    border-color: #fff;
+    padding: 13px 28px;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.btn-light-out:hover {
+    background-color: white;
+    color: black;
+}
+
+.corsl-h1 {
+    font-size: 5rem;
+    letter-spacing: -3px;
+    line-height: 1.25;
+    font-weight: bold;
+    display: block;
+}
+
+.corsl-h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.carousel-caption {
+    bottom: 35%;
+    z-index: 2;
+}
+
+.carousel-inner img {
+    background-size: cover;
+    height: 780px;
+}
+
+.layer {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(23, 22, 24, 0.4);
+}
+
+.carousel-caption {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-indicators {
+    bottom: 6%;
+}
+
+.carousel-indicators li {
+    width: 40px;
+    height: 1.5px;
+}
+
+.corsl-h1 {
+    opacity: 0;
+    transform: scale(0);
+    animation: display 0.8s ease 0s 1 normal forwards running;
+}
+
+@keyframes display {
+    to {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+.corsl-h4 {
+    opacity: 0;
+    transform: scale(0);
+    animation: display 0.8s ease 1s 1 normal forwards running;
+}
+
+@keyframes display {
+    to {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+#corl-btn {
+    opacity: 0;
+    transform: scale(0);
+    animation: display 0.8s ease 1.2s 1 normal forwards running;
+}
+
+@keyframes display {
+    to {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+.control-icons-container {
+    width: 50px;
+    height: 100px;
+    display: flex;
+    top: 28%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.slide-arrow {
+    opacity: 1;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    background-color: transparent;
+}
+
+.arrow-bg {
+    background-color: white;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    transition: width 0.5s;
+    left: 0;
+}
+
+.slide-arrow:hover .arrow-bg {
+    width: 100%;
+}
+
+.slide-arrow:hover .fas {
+    color: black;
+}
+
+.slide-arrow .fas {
+    position: relative;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.5s;
+}
+
