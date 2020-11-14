@@ -515,7 +515,7 @@ p {
     font-weight: 700;
 }
 
-.carousel-item span {
+.section__testimonials .carousel-item span {
     display: block;
     text-transform: uppercase;
     font-family: 'Poppins', serif;
@@ -525,7 +525,7 @@ p {
     color: #787878;
 }
 
-.carousel-item .section-paragraph {
+.section__testimonials .carousel-item .section-paragraph {
     margin: 25px 0;
     font-size: 18px;
     font-weight: 300;
@@ -536,11 +536,11 @@ p {
     color: #1f1f1f;
 }
 
-.carousel-indicators {
+.section__testimonials .carousel-indicators {
     position: relative;
 }
 
-.carousel-indicators li {
+.section__testimonials .carousel-indicators li {
     background-color: #748182;
     width: 10px;
     height: 10px;
@@ -549,7 +549,7 @@ p {
     margin-right: 1rem;
 }
 
-.carousel-indicators .active {
+.section__testimonials .carousel-indicators .active {
     background-color: #00c3da;
 }
 
@@ -557,9 +557,7 @@ p {
 
 /* resposive settings */
 
-@media (max-width: 576px){
 
-}
 @media (min-width: 576px) and (max-width: 767px) {
     .col-sm-6 {
         max-width: 48%;
@@ -653,9 +651,6 @@ p {
 }
 
 @media (min-width: 992px) {
-    .container{
-        background-color: aqua;
-    }
     .col-md-6, .col-lg-6 {
         max-width: 48%;
     }
