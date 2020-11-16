@@ -515,10 +515,6 @@ p {
     color: #787878;
 }
 
-.section__testimonials .carousel-arrow {
-    color: #1f1f1f;
-}
-
 .section__testimonials .carousel-indicators {
     position: relative;
 }
@@ -578,10 +574,7 @@ p {
     .row>div:last-child {
         margin-bottom: 0;
     }
-  
-    .section__testimonials .carousel-arrow {
-        display: none;
-    }
+ 
     .section__about {
         padding: 1rem 0;
     }
