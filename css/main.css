@@ -218,7 +218,7 @@ a {
 /* start section 4*/
 
 .section4 {
-    height: 90vh;
+    min-height: 90vh;
     font-family: "Poppins", sans-serif;
     background-color: #4b4b4b;
     display: flex;
@@ -393,7 +393,7 @@ a {
 /* start section testmonials  */
 
 .section__testimonials {
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .carousel-heading {
@@ -549,10 +549,6 @@ a {
     .col-md-3{
         max-width: 23%;
     }
-    .container{
-        background-color: aqua;
-    }
-
 }
 
 @media (max-width: 991px) {
@@ -602,8 +598,5 @@ a {
     }
     .section__packeges .col-md-4 {
         max-width: 32%;
-    }
-    .container{
-        background-color: blue;
     }
 }
