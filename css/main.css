@@ -30,6 +30,7 @@ a {
 .row {
     margin-left: 0;
     margin-right: 0;
+    width: 100%;
 }
 
 .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
@@ -169,7 +170,7 @@ a {
     width: 100%;
     background-color: rgba(0, 195, 218, 0.9);
     color: #fff;
-    top: 20px;
+    top: 10px;
     opacity: 0;
     padding: 25px 20px 25px 20px;
     transition: top 0.3s, opacity 0.3s;
@@ -280,55 +281,6 @@ a {
 }
 
 /* end section 4 */
-
-/*===============================Prices Section =========================================*/
-
-#Prices {
-    background-color: #f7f7f7;
-}
-
-.head-price {
-    position: relative;
-}
-
-.head-price .label {
-    position: absolute;
-    bottom: 3;
-    right: 2rem;
-    font-size: 9px;
-    color: white;
-    font-weight: 700;
-    background-color: #00c3da;
-    border-radius: 60px;
-    padding: 6 12;
-}
-
-.Heading h1 {
-    position: relative;
-    color: #e9e9e9;
-    font-size: 4rem;
-    opacity: 5;
-}
-
-.Heading h2 {
-    position: absolute;
-    top: 20px;
-    font-size: 38px;
-    font-weight: 700;
-}
-
-p {
-    color: #787878;
-}
-
-.prices-info {
-    background-color: #fff;
-}
-
-.prices-info:hover {
-    box-shadow: 0 0 100px rgba(255, 255, 255, 1);
-}
-
 /*=================================Team Section==========================*/
 
 #Team {
@@ -419,8 +371,8 @@ p {
     color: #787878;
 }
 .sign-button{
-    margin-top: 0.3rem;
-    position: relative;
+    display: block;
+    margin-top: 0.6rem;
     border: none;
     padding: 10px 15px; 
     font-size: 12px;
@@ -428,11 +380,13 @@ p {
     color: #fff;
     background-color: #00c3da;
     border-radius: 5px;
-    transition: bottom 1s;
+    transform: translateY(5px);
+    transition: transform 0.3s ,box-shadow 0.5s;
 }
 
 .sign-button:hover{
-    bottom: 5px;
+    transform: translateY(0);
+    box-shadow: 0px 5px 7px -5px rgba(94, 94, 94, 0.61);
 }
 /*  end section price */
 
@@ -595,6 +549,9 @@ p {
     .col-md-3{
         max-width: 23%;
     }
+    .container{
+        background-color: aqua;
+    }
 
 }
 
@@ -645,5 +602,8 @@ p {
     }
     .section__packeges .col-md-4 {
         max-width: 32%;
+    }
+    .container{
+        background-color: blue;
     }
 }
