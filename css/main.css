@@ -501,13 +501,7 @@ a {
     .container {
         max-width: 90%;
     }
-    .navbar-nav {
-        background-color: white;
-        padding: 1rem;
-    }
-    .navbar-dark .navbar-nav .nav-item .nav-link {
-        color: black !important;
-    }
+    
     .control-icons-container {
         width: 40px;
     }
@@ -560,7 +554,10 @@ a {
         display: none;
     }
     .navbar-dark .navbar-nav .nav-item .nav-link {
-        color: black !important;
+        color: black ;
+    }
+    .navbar-dark .navbar-nav .active .nav-link {
+        color: #00c3da;
     }
     .navbar-light .navbar-toggler .navbar-toggler-icon {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='20' viewBox='0 0 30 20'%3e%3cpath stroke='rgba%280, 0, 0' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 5h22M4 10h22M4 15h22'/%3e%3c/svg%3e");
