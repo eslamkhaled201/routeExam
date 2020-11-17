@@ -218,7 +218,7 @@ a {
 /* start section 4*/
 
 .section4 {
-    min-height: 90vh;
+    height: 90vh;
     font-family: "Poppins", sans-serif;
     background-color: #4b4b4b;
     display: flex;
@@ -393,7 +393,7 @@ a {
 /* start section testmonials  */
 
 .section__testimonials {
-    min-height: 80vh;
+    height: 80vh;
 }
 
 .carousel-heading {
